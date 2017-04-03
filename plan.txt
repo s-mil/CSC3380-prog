@@ -1,0 +1,70 @@
+Main run-through
+
+
+User greeted with screen command line style social network
+
+1. Login
+2. Create Account
+3. Exit
+
+
+Branches
+
+1.
+    Enter Username:
+
+    Enter Password:
+
+    (if either do not exist/wrong)
+    Incorrect Username or Password, have you created an account?
+
+    Upon success go to 4
+
+
+2.
+    Enter 89 Number:(its for LSU students so this functions as a mild filter and prevents more than one account per person loosely)
+
+    (check for preexisting)
+    Enter desired Username:
+
+    (Check for preexisting)
+    Enter desired Password:
+
+    Enter Password again:
+
+    (if not a match to the previous)
+    Passwords Do not match!
+    //go to 31
+
+    Enter First Name: (Ensure Nonblank)
+
+    Enter Last Name:(Ensure Nonblank)
+
+    //Write to text file
+    //Format: 89_______ UN PW FN LN
+    Thank you for registering you may log in now
+
+
+    // got to main menu
+
+3.
+    Thanks for Visiting
+    program terminates
+
+4.
+    //upon being logged in
+    1. View Friends List
+
+        List of friends numbered and ordered alphabetically by FN
+
+        Options: 0 return to previous menu
+
+                 1: remove a friend
+
+                    Enter number of friend to remove:
+                    Would you like to remove another? (y/n)
+                      if y
+                      go to 64
+
+                      if n
+                      go to 58
